@@ -10,5 +10,8 @@ services:
         - .:/usr/app
 
 # docker-compose up
-# docker-compose up -d rodando em background
-# docker logs rentx -f para acompanhar o log em real time.
+# docker-compose up -d => Rodando em background
+# docker logs rentx -f => Para acompanhar o log em real time.
+# docker-compose stop => Pausar o serviço do docker-compose.
+# docker-compose down => Remover tudo que foi criado do serviço.
+# docker-compose start => Para dar start no serviço.
