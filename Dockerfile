@@ -18,4 +18,3 @@ CMD ["npm","run","dev"]
 # docker ps
 # docker exec -it "nome do container" /bin/bash
 # depois do passo acima basta digitar ls que verá todas as pastas exportadas - menos as que estã0 no .dockerignore
-
