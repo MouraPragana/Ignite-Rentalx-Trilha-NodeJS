@@ -17,5 +17,9 @@ Configurando Projeto para usar o TYPEORM
 
 Configurando as migrations do typeorm
     1. Criar o script em package.json chamado "typeorm"
+
     2. No ormconfig configurar onde colocar as migrations => "migrationsDir" dentro de cli => "cli": {"migrationsDir": "./src/database/migrations"}
-    3. No ormconfig configurar o caminho onde estão nossas migrations que serão executadas =>   "migrations": ["./src/database/migrations/*.ts"]
+
+    3. No ormconfig configurar o caminho onde estão nossas migrations que serão         executadas => "migrations": ["./src/database/migrations/*.ts"]
+
+    4. No ormconfig configurar o caminho onde estão nossas entidades que serão utilizadas => "entities": ["./src/modules/cars/entities/*.ts"]
